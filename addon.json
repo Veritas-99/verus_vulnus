@@ -1,0 +1,11 @@
+{
+	"title"		:	"Verus Vulnus [Injury/Damage System]",
+	"type"		:	"Tool",
+	"tags"		:	[ "fun" ],
+	"ignore"	:
+	[
+		"*.md",
+		"*git*",
+		"*.txt"
+	]
+}
