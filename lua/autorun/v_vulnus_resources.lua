@@ -1,0 +1,1 @@
+resource.AddFile("sound/bandage_apply.mp3")
