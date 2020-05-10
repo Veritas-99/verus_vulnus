@@ -51,8 +51,8 @@ if SERVER then
 					elseif supply == "Morphine" then
 						newHealth = actor:Health() + 50
 
-						if newHealth > 100 then
-							actor:SetHealth(100)
+						if newHealth > actor:GetMaxHealth() then
+							actor:SetHealth(actor:GetMaxHealth())
 						else
 							actor:SetHealth(newHealth)
 						end
